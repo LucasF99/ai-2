@@ -19,3 +19,34 @@ class Network(object):
             self.layers[0][i] = in_val[i] # set input values
         for i in range(len(self.synapses)): # multiply layer by synapse layer
             self.layers[i+1] = self.layers[i]@self.synapses[i]
+
+### Ideias ###############################################################
+#
+#   ligar uma rede a outra, simulando uma convolutional neural network
+#       -> para ajustar os valores na evolução/backpropagation, criar
+#          uma lista de valores ajustáveis, que aceita arrays e redes
+#          como parâmetros
+#
+#   fazer função de ajustar valores/realizar mutações baseada em um input,
+#   em vez de usar uma rede como parâmetro
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
